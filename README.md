@@ -13,9 +13,9 @@ Beyond data structures, this assignment reinforces three important programming c
 
 1. All your code goes into `payroll.py`, the starter file provided. You do not need to create any new Python files. The functions you need to implement are: `add_employee()`, `run_registration()`, `get_employee()`, `get_employees_by_department()`, `get_employees_by_level()`, `assign_benefit()`, `save_to_change_log()`, `update_employee_pay()`, `update_employee_level()`, and `remove_employee()`.
 
-2. Do not modify the global variable initialization block at the top of `payroll.py`, or the `if __name__ == "__main__":` block at the bottom. These are provided for you and must remain unchanged.
+2. Do not modify the global variable initialization block at the top of `payroll.py`. It is provided for you and must remain unchanged.
 
-3. Grading basis varies by function. Most functions in this assignment are graded on their **return values** and the **state of the global variables** after they run. Thus, as mentioned above, it is important that you don't modify global variable initialization. The function `run_registration()` is graded on what it **prints to the terminal** — for that function, your output must match the example output exactly, including spacing, punctuation, and capitalization. Each task description will make clear which grading basis applies.
+3. Grading basis varies by function. Most functions in this assignment are graded on their **return values** and the **state of the global variables** after they run. The function `run_registration()` is graded on what it **prints to the terminal** — for that function, your output must match the example output exactly, including spacing, punctuation, and capitalization. Each task description will make clear which grading basis applies.
 
 4. Ensure that your program runs without errors. If your code fails to execute due to a syntax error or uncaught exception at import time, a flat **20% point deduction** will be applied, regardless of the nature of the error.
 
